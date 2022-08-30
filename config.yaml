@@ -31,6 +31,7 @@ params:
         math: false
         toc: true
         readingTime: true
+        preview: true
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
