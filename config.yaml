@@ -26,6 +26,7 @@ params:
             enabled: true
             local: true
             src: img/avatar.png
+            text: 
 
     article:
         math: false
