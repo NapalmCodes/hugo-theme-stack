@@ -49,6 +49,9 @@
     {{ if .Site.Params.article.preview }}
     <section class="article-preview">
         {{ (index (split .Content "### end preview ###") 0) | safeHTML }}
+        <a href="{{ .RelPermalink }}">
+            Read More...
+        </a>
     </section>
     {{ end }}
 
