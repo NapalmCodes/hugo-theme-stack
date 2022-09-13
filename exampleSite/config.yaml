@@ -47,6 +47,8 @@ params:
     footer:
         since: 2020
         customText:
+        copyrightText:
+        copyrightLink: 
 
     dateFormat:
         published: Jan 02, 2006
