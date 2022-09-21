@@ -5,7 +5,7 @@
 {{- $result := slice -}}
 
 {{- range $filtered -}}
-    {{- $cleanedContent = replace (.Plain) .Site.Params.article.prevPhTxt "" -}}
+    {{- $cleanedContent := replace (.Plain) .Site.Params.article.prevPhTxt "" -}}
     {{- $data := dict "title" .Title "date" .Date "permalink" .Permalink "content" $cleanedContent -}}
 
     {{- $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" -}}
