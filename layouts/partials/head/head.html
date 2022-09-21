@@ -4,7 +4,7 @@
 {{- $description := partialCached "data/description" . .RelPermalink -}}
 <meta name='description' content='{{ $description }}'>
 <meta name='author' content='{{ .Site.Params.header.author }}'>
-<meta name='copyright' content='{{ .Site.Params.header.author }}'
+<meta name='copyright' content='{{ .Site.Params.header.author }}'>
 
 {{- $title := partialCached "data/title" . .RelPermalink -}}
 <title>{{ $title }}</title>
