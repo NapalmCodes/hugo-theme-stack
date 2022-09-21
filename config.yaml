@@ -11,6 +11,7 @@ params:
     favicon:
 
     header:
+        author:
         description:
 
     footer:
