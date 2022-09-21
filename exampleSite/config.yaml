@@ -44,6 +44,9 @@ params:
     rssFullContent: true
     favicon:
 
+    header:
+        description:
+
     footer:
         since: 2020
         customText:
