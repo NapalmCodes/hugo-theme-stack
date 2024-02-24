@@ -94,14 +94,14 @@
                     {{ end }}
                 {{ end }}
 
-                {{ if (default false .Site.Params.colorScheme.toggle) }}
-                    <li id="dark-mode-toggle">
-                        {{ partial "helper/icon" "toggle-left" }}
-                        {{ partial "helper/icon" "toggle-right" }}
-                        <span>{{ T "darkMode" }}</span>
-                    </li>
-                {{ end }}
-            </ol>
-        </li>
+        <div class="menu-bottom-section">
+            {{ if (default false .Site.Params.colorScheme.toggle) }}
+                <li id="dark-mode-toggle">
+                    {{ partial "helper/icon" "toggle-left" }}
+                    {{ partial "helper/icon" "toggle-right" }}
+                    <span>{{ T "darkMode" }}</span>
+                </li>
+            {{ end }}
+        </div>
     </ol>
 </aside>
