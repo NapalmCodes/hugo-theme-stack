@@ -7,7 +7,7 @@
 <meta name='copyright' content='{{ .Site.Params.header.author }}'>
 {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
 
-{{- $title := partialCached "data/title" . .RelPermalink -}}
+{{- $title := partial "data/title" . -}}
 <title>{{ $title }}</title>
 
 <link rel='canonical' href='{{ .Permalink }}'>
