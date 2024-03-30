@@ -1,6 +1,3 @@
 <h{{ .Level }} id="{{ .Anchor }}">
-    {{- if site.Params.Article.HeadingAnchor -}}
-        <a href="#{{ .Anchor }}" class="header-anchor"></a>
-    {{- end -}}
-    {{ .Text | safeHTML }}
+    <a href="#{{ .Anchor }}">{{ .Text | safeHTML }}</a>
 </h{{ .Level }}>
