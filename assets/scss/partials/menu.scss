@@ -146,7 +146,8 @@
         padding: 15px 0;
     }
 
-    &, .menu-bottom-section {
+    &,
+    .menu-bottom-section {
         gap: 30px;
 
         @include respond(xl) {
