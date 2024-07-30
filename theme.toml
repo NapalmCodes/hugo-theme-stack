@@ -20,7 +20,7 @@ features = [
     "search",
 ]
 
-min_version = "0.124.1"
+min_version = "0.130.0"
 
 [author]
 name = "Jimmy Cai"
