@@ -231,10 +231,6 @@
             width: var(--card-padding);
             text-align: center;
             color: var(--accent-color);
-
-            &:before {
-                content: "#";
-            }
         }
 
         &:hover,
